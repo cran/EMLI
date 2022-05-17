@@ -1,0 +1,14 @@
+3c629890460d39bd1e8e438eca59f1c5 *DESCRIPTION
+3d0dd7926036ff8b41edeb10a8684db7 *NAMESPACE
+b3bc738e00159274a0ca09559f066a75 *NEWS.md
+fa936be951976378f1255bd878bfc0c2 *R/calculate_1D_likelihood.R
+d160103eada51fa155637f73845fccba *R/calculate_recursive.R
+a239377daac069c10b1067f6bb666bc0 *R/calculate_selected.R
+1ad1e1eb966626f128d329820c5748ee *R/evaluate_identification.R
+f2aec05fe7002608eef68c44f1d1382d *R/generate_data.R
+494a7d00e60ab5592e4a16d8df475e14 *R/identify_model.R
+bf3dcdcc00211eb4b0325401cd582429 *R/minimize_1D_likelihood.R
+0d495872770bd949e4df4d4a9eac09fc *R/minimize_likelihood.R
+784074037c76b70f1bd30cce46c6bd4f *man/evaluate_identification.Rd
+c245d334a62368302a7a75f498690185 *man/generate_data.Rd
+d790b5c5a789475bac436d4ce8149e2a *man/identify_model.Rd
