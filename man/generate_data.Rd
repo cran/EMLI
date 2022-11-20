@@ -16,10 +16,10 @@ generate_data(n, L, sigma, mu)
 \item{mu}{Intercept terms ((m + 1) x 1 matrix of finite numeric elements; the first m rows correspond to the input measurement equation; the last row corresponds to the transition equation).}
 }
 \value{
-A list consisting of 2 elements: 1) observed input data (n x m matrix of numeric elements); 2) observed output differences data (n x 1 matrix of numeric elements).
+An (n + 1) x (m + 1) data frame of numeric elements (except for row 1 columns 1 to m that contain NA's) containing observed input (columns 1 to m) and output (column m + 1) data.
 }
 \description{
-Generates data according to the one-dimensional cumulative structural equation model with normality assumptions with given model parameter values.
+Generates data according to the one-dimensional cumulative structural equation model with shock-error output measurement equation and assumptions of normality and independence with given model parameter values.
 }
 \examples{
 set.seed(1)

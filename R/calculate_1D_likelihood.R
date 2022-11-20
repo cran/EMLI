@@ -6,10 +6,9 @@
 
 calculate_1D_likelihood <- function(n, x_c, dy, s, o) {
   tmp <- calculate_selected(n, x_c, dy, s, o)
-
+  
   h <- log(tmp[[4]] / (tmp[[5]] ^ (1 - 1 / n)))
   g <- tmp[[3]]
-
+  
   return (h + log(g))
-
 }
